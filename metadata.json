@@ -1,0 +1,6 @@
+{
+  "name": "DataFabricIQ",
+  "description": "Enterprise AI-ready data marketplace for discovering, governing, evaluating, and accessing trusted data products.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

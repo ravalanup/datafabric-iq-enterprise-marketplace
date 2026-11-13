@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+:root {
+  --df-canvas: #F4F7FB;
+  --df-surface: #FFFFFF;
+  --df-surface-subtle: #F8FAFC;
+  --df-border: #E2E8F0;
+  --df-ink: #0A2540;
+  --df-primary: #005EB8;
+  --df-primary-hover: #004488;
+  --df-primary-soft: #EBF3FA;
+  --df-secondary: #0D9488;
+  --df-secondary-soft: #E6F7F5;
+  --df-sidebar-bg: #FFFFFF;
+  --df-sidebar-border: #E2E8F0;
+  --df-sidebar-text: #0F172A;
+  --df-sidebar-muted: #64748B;
+  --df-sidebar-hover-bg: #F8FAFC;
+  --df-sidebar-active-bg: #EBF3FA;
+  --df-sidebar-active-text: #005EB8;
+  --df-hero-bg: linear-gradient(135deg, #0A2540 0%, #0F3B66 60%, #005EB8 100%);
+  --df-hero-text: #FFFFFF;
+  --df-hero-subtext: #CBD5E1;
+  --df-hero-border: #0A2540;
+}
+
+@theme {
+  --font-display: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-sans: "DM Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    color: var(--df-ink);
+    background-color: var(--df-canvas);
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
